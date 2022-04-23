@@ -2,13 +2,13 @@ function getReceipt() {
     //This initialises our string so it can get passed from
     //function to function, growing line by line into a full receipt
     var text1="<h3>You Ordered:</h3>";
-    var runningTotal=0;
-    var sizeTotal=0;
-    var sizeArray=document.getElementsByClassName("size");
-    for (var i = 0; i<sizeArray.length; i++ ) {
+    var runningTotal = 0;
+    var sizeTotal = 0;
+    var sizeArray = document.getElementsByClassName("size");
+    for (var i = 0; i < sizeArray.length; i++ ) {
         if (sizeArray[i].checked) {
-            var selectedSize=sizeArray[i].ariaValueMax;
-            text1=text1+selectedSize+"<br>";
+            var selectedSize = sizeArray[i].value;
+            text1 = text1+selectedSize+"<br>";
         }
     }
     if (selectedSize === "Personal Pizza") {
@@ -26,8 +26,7 @@ function getReceipt() {
     console.log(selectedSize+"=$"+sizeTotal+".00");
     console.log("size text1: "+text1);
     console.log("subtotal: $"+runningTotal+".00");
-    //these variables will get passed on to each function
-    getTopping(runningTotal,text1);
+    getTopping(runningTotal,text1);  //these variables will get passed on to each function
 } ;
 
 function getTopping(runningTotal,text1) {
