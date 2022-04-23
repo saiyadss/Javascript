@@ -1,0 +1,19 @@
+
+font
+{
+    
+font-style: arial;
+font-size: 15px;
+
+}
+
+
+form {
+    width: auto;
+    margin: auto;
+    border: 0.5 solid white;
+    border-radius: 2;
+    font-style: arial italic;
+    font-size: 15px;
+
+	}

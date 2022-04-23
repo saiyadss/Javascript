@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf -8">
+		<title>Trading Crypto and FRX </title>
+	</head>
+	
+	<body>
+	
+	<! -- NAV -- >
+	<div>
+		<div>
+			<ul>
+				<a href="#home" id="link"><li>HOME</li></a>
+				<a href="#gallery"><li>GALLERY</li></a>
+				<a href="#contact"><li>CONSULTATION</li></a>
+			</ul>
+		</div>
+	</div>
+	<! -- END NAV -- >
+	
+	<! -- HOME -- >
+	<div id="home">
+		<div>
+			</div>
+				<span> Trading is Fun </span>
+			</div>
+		</div>
+	</div>
+	<! -- END HOME -- >
+	
+		<! -- GALLERY -- >
+		<section>
+				<div id="gallery">
+					<h1>Gallery</h1>
+					<div>
+					
+						<! -- PHOTO CONTAINER 1 -- >
+						<div>
+							<div>
+							<img src="./Images/Thumb/thumbnail_1.png" alt=" Crypto Trading ">
+								<div>
+									<h3>Click to Enlarge </h3>
+									<p> There are different options to learn and know about in Trading.									
+										Book your free consultation session with and expert !
+								</div>
+							</div>
+						</div>
+						<!  -- END PHOTO CONTAINER 1 -- >
+						
+						<! -- PHOTO CONTAINER 2 -- >
+						<div>
+							<div>
+							<img src="./Images/Thumb/thumbnail_2.png" alt=" Forex Pairs Trading ">
+								<div>
+									<h3> Click to Enlarge </h3>
+									<p> There are different options to learn and know about in Trading.									
+										Book your free consultation session with and expert !
+								</div>
+							</div>
+						</div>
+						<!  -- END PHOTO CONTAINER 2 -- >
+						
+						<! -- PHOTO CONTAINER 3 -- >
+						<div>
+							<div>
+							<img src="./Images/Thumb/thumbnail_3.png" alt=" Indecies Trading ">
+								<div>
+									<h3> Click to Enlarge </h3>
+									<p> There are different options to learn and know about in Trading.									
+										Book your free consultation session with and expert !
+								</div>
+							</div>
+						</div>
+						<!  -- END PHOTO CONTAINER 3 -- >
+						
+						<! -- PHOTO CONTAINER 4 -- >
+						<div>
+							<div>
+							<img src="./Images/Thumb/thumbnail_4.png" alt=" Fibonacci Rettracements  ">
+								<div>
+									<h3> Click to Enlarge </h3>
+									<p> There are different options to learn and know about in Trading.									
+										Book your free consultation session with and expert !
+								</div>
+							</div>
+						</div>
+						<!  -- END PHOTO CONTAINER 4 -- >
+						
+						
+						
+					</div>
+				</div>
+		</section>
+		<! -- END GALLERY -->
+		
+	<! -- CONSULT -- >
+	<section>
+		<div id="contact">
+			<div>
+				<h1> Consultation </h1>
+				<div>
+					<h2><span>Your free Session is just a click away.</span>
+					<br />    Reserve your spot today !
+					</h2>
+					<p>
+						Please provide us with your basic contact information.
+					</p>
+					<div>
+						<form action= "" method= "post">
+						<input class="rsvp" type="text" value="First Name">
+						<input class="rsvp" type="text" value="Last Name">
+						<input class="rsvp" type="text" value="Email Address">
+						<input class="rsvp" type="text" value="Phone Number">
+						<div class="form-spacer">
+							<label class="terms">Terms and Conditions</label>
+					</div>
+						<div>
+							<input type="submit" value="Submit">
+						</div>
+					</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<! -- END CONSULT -- >
+
+<! -- FOOTER -- >
+	<div>
+		www.blockchain.tech @COPY BT 2022
+	</div>
+	<! -- END FOOTER -- >
+</body>
+</html>
+							
+	
+		

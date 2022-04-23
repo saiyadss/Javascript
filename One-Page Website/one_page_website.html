@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf -8">
+		<title>Trading Crypto and FRX </title>
+		<script src="JS/one_page_website.js" defer></script>
+		<link rel="stylesheet" type="text/css" href="one_page_website.css">
+	</head>
+	
+	
+		
+
+	<body>
+	
+	<!-- NAV -->
+	<div>
+		<div>
+			<ul>
+				<a href="#home" id="link"><li>HOME</li></a>
+				<a href="#gallery"><li>GALLERY</li></a>
+				<a href="#contact"><li>CONSULTATION</li></a>
+			</ul>
+		</div>
+	</div>
+	<!-- END NAV -->
+	
+	<!-- HOME -->
+	<div id="home">
+		<div>
+			</div>
+				<span><b> Trading is Fun </b></span>
+			</div>
+		</div>
+	</div>
+	<!-- END HOME -->
+	
+		<!-- GALLERY -->
+		<section>
+				<div id="gallery">
+					<h1>Gallery</h1>
+					<div>
+					
+						<!-- PHOTO CONTAINER 1 -->
+						<div>
+							<div>
+								<img src="Images/thumb/crypto_trading.png" alt=" Crypto Trading ">
+								<div>
+									<h3>Click to Enlarge </h3>
+									<p> There are different options to learn and know about in Trading.									
+										Book your free consultation session with an expert !
+								</div>
+							</div>
+						</div>
+						<!-- END PHOTO CONTAINER 1 -->
+						
+						<!-- PHOTO CONTAINER 2 -->
+						<div>
+							<div>
+							<img src="Images/thumb/forex_market.png" alt=" Forex Pairs Trading ">
+								<div>
+									<h3> Click to Enlarge </h3>
+									<p> There are different options to learn and know about in Trading.									
+										Book your free consultation session with an expert !
+								</div>
+							</div>
+						</div>
+						<!-- END PHOTO CONTAINER 2 -->
+						
+						<!-- PHOTO CONTAINER 3 -->
+						<div>
+							<div>
+							<img src="Images/thumb/Indices_trading.jpg" alt=" Indicies Trading ">
+								<div>
+									<h3> Click to Enlarge </h3>
+									<p> There are different options to learn and know about in Trading.									
+										Book your free consultation session with an expert !
+								</div>
+							</div>
+						</div>
+						<!-- END PHOTO CONTAINER 3 -->
+						
+						<!-- VIDEO CONTAINER  -->
+						<div>
+							<div>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/ws28EJkNyqw" title="YouTube video player"
+										 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+								</iframe>
+					
+									<h3> Must Watch Video </h3>
+									<p> There are different options to learn and know about in Trading.									
+								        Book your free consultation session with an expert !
+								</div>
+							</div>
+						</div>
+						
+						<!-- END VIDEO CONTAINER -->
+						
+						
+						
+					</div>
+				</div>
+		</section>
+		<!-- END GALLERY -->
+		
+	<!-- CONSULT -->
+	<section>
+		<div id="contact">
+			<div>
+				<h1> Consultation </h1>
+				<div>
+					<h2><span>Learn more about different Trading Styles and Opportunities.</span>
+					<br />    Reserve your free spot today !
+					</h2>
+					<p>
+						Please provide us with your basic contact information.
+					</p>
+					<div>
+						<form action= "" method= "post">
+						<input class="rsvp" type="text" value="First Name">
+						<input class="rsvp" type="text" value="Last Name">
+						<input class="rsvp" type="text" value="Email Address">
+						<input class="rsvp" type="text" value="Phone Number">
+						<div class="form-spacer">
+							<label class="terms">Terms and Conditions</label>
+					</div>
+						<div>
+							<input type="submit" value="Submit">
+						</div>
+					</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END CONSULT -->
+
+<!-- FOOTER -->
+	<div>
+		www.tradertech.smart @COPY SmartTrader 2022
+	</div>
+	<!-- END FOOTER -->
+
+	<!-- Images used to open the lightbox -->
+<div class="row">
+	<div class="column">
+	  <img src="Images/thumb/crypto_trading.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+	</div>
+	<div class="column">
+	  <img src="Images/thumb/forex_market.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+	</div>
+	<div class="column">
+	  <img src="Images/thumb/Indices_trading.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+	</div>
+  </div>
+  
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+  
+	  <div class="mySlides">
+		<div class="numbertext">1 / 4</div>
+		<img src="Images/thumb/crypto_trading.png" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">2 / 4</div>
+		<img src="Images/thumb/forex_market.png" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">3 / 4</div>
+		<img src="Images/thumb/Indices_trading.jpg" style="width:100%">
+	  </div>
+  
+	   
+	  <!-- Next/previous controls -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+	  <!-- Caption text -->
+	  <div class="caption-container">
+		<p id="caption"></p>
+	  </div>
+  
+	  <!-- Thumbnail image controls -->
+	  <div class="column">
+		<img class="demo" src="Images/thumb/crypto_trading.png" onclick="currentSlide(1)" alt="crypto_trading">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="Images/thumb/forex_market.png" onclick="currentSlide(2)" alt="forex_market">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="Images/thumb/Indices_trading.jpg" onclick="currentSlide(3)" alt="Indices_trading">
+	  </div>
+  
+	</div>
+  </div>
+
+</body>
+</html>
+							
+	
+		
