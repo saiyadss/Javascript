@@ -161,7 +161,6 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
         x=x1,
         //This variable stores temporary y axis data we update in our animation loop.
         y=y1;
-}
 
     //This function interacts with the canvas
     function animateLineDrawing() {
@@ -198,7 +197,8 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
         if (y>y2) {y -=10 ;}
         if (x >= x2 && y <= y2) {cancelAnimationFrame(animationLoop);}
     }
-    
+
+}
     //This line disallows clicking while the win sound is playing
     disableClick();
     //This line plays the win sounds.
@@ -215,7 +215,7 @@ function resetGame() {
     //This for loop iterates through each HTML square element
     for (let i=0; i<9; i++) {
         //This variable gets the html element of i.
-        let square=document.getElementById(String(i));
+        let square = document.getElementById(String(i));
         //This removes our elements backgroundImage.
         square.style.backgroundImage = '';
     }
